@@ -1,0 +1,217 @@
+/*  */
+
+.footer-bottom {
+       width: 100%;
+       min-height: 300px;
+       margin-top: 60px;
+       background: #050c23;
+}
+.top-footer-2 {
+       width: 100%;
+       height: 70%;
+       padding: 65px 20px 30px;
+}
+
+.section-2 {
+       width: 100%;
+       height: 180px;
+       /* background: #576065; */
+       display: flex;
+       align-items: self-start;
+       align-content: center;
+       justify-content: space-between;
+}
+
+.left-2 {
+       width: 230px;
+       height: 80px;
+       display: flex;
+       align-items: self-start;
+       flex-direction: column;
+       align-content: center;
+       justify-content: space-between;
+}
+
+.left-2 .images {
+       width: 86px;
+       height: 27px;
+}
+
+.left-2 span {
+       width: 230px;
+       height: 43px;
+       font-family: "Inter";
+       font-style: normal;
+       font-weight: 500;
+       font-size: 10px;
+       line-height: 150%;
+
+       color: #ffffff;
+}
+
+.left-pages {
+       width: 110px;
+       height: 127px;
+       display: flex;
+       align-items: self-start;
+       flex-direction: column;
+       align-content: center;
+       justify-content: space-between;
+}
+
+.left-pages h4 {
+       height: 19px;
+
+       font-family: "Inter";
+       font-style: normal;
+       font-weight: 500;
+       font-size: 16px;
+       line-height: 19px;
+       letter-spacing: -0.231818px;
+
+       color: #ffffff;
+}
+
+.left-pages p a {
+       height: 15px;
+
+       font-family: "Inter";
+       font-style: normal;
+       font-weight: 400;
+       font-size: 12px;
+       line-height: 15px;
+
+       letter-spacing: -0.204545px;
+
+       color: #ffffff;
+
+       opacity: 0.6;
+}
+
+.left-contact {
+       width: 274px;
+       height: 169px;
+       /* background-color: #8c919e; */
+}
+
+.left-contact h4 {
+       height: 40px;
+       width: 130px;
+       font-family: "Inter";
+       font-style: normal;
+       font-weight: 500;
+       font-size: 16px;
+       line-height: 126.6%;
+
+       /* or 20px */
+       letter-spacing: -0.3px;
+
+       color: #ffffff;
+}
+
+.forma {
+       width: 100%;
+       height: 50px;
+       display: flex;
+}
+
+.forma input {
+       width: 85%;
+       background: none;
+       border-top: none;
+       border-left: none;
+       border-right: none;
+       border-bottom: 1px solid #ffffff;
+       /* border: none; */
+       outline: none;
+       color: #f9f9f9;
+       list-style: none;
+}
+.forma input::placeholder {
+       height: 17px;
+
+       font-family: "Inter";
+       font-style: normal;
+       font-weight: 400;
+       font-size: 14px;
+       line-height: 17px;
+
+       letter-spacing: -0.204545px;
+
+       color: #ffffff;
+
+       mix-blend-mode: normal;
+       opacity: 0.5;
+}
+
+.icons {
+       list-style: none;
+       text-decoration: none;
+       display: flex;
+       align-items: center;
+       align-content: center;
+       gap: 20px;
+}
+.icons span {
+       width: 25px;
+       height: 26px;
+}
+.icons span .icons-btn {
+       color: #fff;
+       border: 1px solid rgba(255, 255, 255, 0.05);
+       background: rgba(255, 255, 255, 0.05);
+       border-radius: 2px;
+       filter: blur(0.5);
+}
+
+.bottom-footer-2 {
+       border-top: 1px solid #103658;
+       width: 100%;
+       height: 60px;
+       display: flex;
+       align-items: center;
+       align-content: center;
+       justify-content: center;
+}
+
+.bottom-footer-2 p {
+       font-family: "Inter";
+       font-style: normal;
+       font-weight: 400;
+       font-size: 10px;
+       line-height: 12px;
+       display: flex;
+       align-items: center;
+       color: #ffffff;
+       opacity: 0.5;
+}
+
+@media only screen and (max-width: 700px) {
+       .section-2 {
+              width: 100%;
+              min-height: 350px;
+              display: flex;
+              align-items: self-start;
+              flex-wrap: wrap;
+              justify-content: space-evenly;
+              gap: 25px;
+       }
+       .section-2 .left-2,
+       .section-2 .left-pages,
+       .left-contact {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              align-content: center;
+              justify-content: space-around;
+       }
+ 
+       .left-contact h4{
+              width: 100%;
+              display: flex;
+              align-items: center;
+              align-content: center;
+              justify-content: center;
+              margin: 15px 0;
+       }
+}
